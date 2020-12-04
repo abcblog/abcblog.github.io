@@ -239,7 +239,7 @@
 <p>www目录下的wordpress是我的网站根目录</p>
 </li>
 <li><p>将wordpress文件夹压缩</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">zip a.zip wordpress</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">zip -r a.zip wordpress</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure>
 <p>www目录下有了a.zip</p>
 </li>
