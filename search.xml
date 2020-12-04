@@ -244,7 +244,7 @@
 <p>www目录下有了a.zip</p>
 </li>
 <li><p>将a.zip放到网站的根目录中,wordpress换成你自己的网站根目录</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mv a.zip ~&#x2F;var&#x2F;www&#x2F;wordpress</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mv a.zip &#x2F;var&#x2F;www&#x2F;wordpress</span><br></pre></td></tr></table></figure>
 <p>查看网站根目录中是否有a.zip</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd wordpress</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure>
