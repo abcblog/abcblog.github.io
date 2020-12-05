@@ -292,7 +292,7 @@
 <p>重新启动mysql</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">service mysql restart</span><br></pre></td></tr></table></figure>
 
-<p><strong>域名dns缓存生效，解析到新的vps中浏览器访问网站提示,建立数据库连接时出错是因为在新的vps中创建的数据库名称 数据库用户 数据库用户密码与旧的vps中的不一样</strong><br><strong>解决方法</strong></p>
+<p><strong>域名dns缓存生效，解析到新的vps中浏览器访问网站提示,建立数据库连接时出错是因为在新的vps中创建的数据库名称 数据库用户 数据库用户密码与旧的vps中的不一样</strong><br><strong>解决方法有两种</strong></p>
 <ol>
 <li>新的vps中创建与旧的vps一样的数据库名称 数据库用户 数据库用户密码</li>
 <li>vps中修改wordpress的配置文件(进网站的根目录中)<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd &#x2F;var&#x2F;www&#x2F;wordpress</span><br><span class="line">ls</span><br><span class="line">vim wp-config.php</span><br></pre></td></tr></table></figure>
